@@ -11,6 +11,7 @@ import { treaty } from '@elysiajs/eden';
 import { clientEnv } from '~/utils/env/client';
 import type { App } from './routes/api';
 import './app.css';
+import 'flowbite';
 
 export const { api } = treaty<App>(clientEnv.HOST_URL);
 
